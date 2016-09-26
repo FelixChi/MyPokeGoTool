@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">#ff0c3cbc</item>
+        <item name="android:textColorPrimary">#ff000000</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!--<item name="colorControlNormal">@color/white</item>-->
+        <!--<item name="titleTextAppearance">@style/ToolbarTitle</item>-->
+    </style>
+</resources>

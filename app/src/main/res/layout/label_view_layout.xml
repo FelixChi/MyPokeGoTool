@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.app.felixchidev.mypokegotool.widget.LabelView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="60dp"
+    android:layout_height="24dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/label_view_bg"
+    android:gravity="center"
+    android:textAllCaps="true"
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    android:textStyle="bold"
+    tools:text="ELECTRIC">
+
+</com.app.felixchidev.mypokegotool.widget.LabelView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="000"
+        android:id="@+id/no_textView"
+        android:textSize="8sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18sp"
+        android:text="cp"
+        android:id="@+id/cp_textView"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/pokemon_imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pokemon_1"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="name"
+        android:id="@+id/name_textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="hp"
+        android:id="@+id/hp_textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="IV"
+        android:id="@+id/iv_textView"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Atk:10"
+            android:id="@+id/atk_textView"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="8sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Def:10"
+            android:id="@+id/def_textView"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="8sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Sta:10"
+            android:id="@+id/sta_textView"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="8sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        app:titleTextAppearance="?attr/titleTextAppearance"
+        >
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include
+                    layout="@layout/label_view_layout"
+                    android:id="@+id/type_textView"
+                    android:text="type"
+                    />
+                <include
+                    layout="@layout/label_view_layout"
+                    android:id="@+id/type2_textView"
+                    android:text="type"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_textView"
+                android:text="name"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hp_textView"
+                android:text="hp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/pokemon_imageView"
+                android:src="@drawable/pokemon_1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cp_textView"
+                android:text="cp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_textView"
+                android:text="IV"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Atk:10"
+                    android:id="@+id/atk_textView"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Def:10"
+                    android:id="@+id/def_textView"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Sta:10"
+                    android:id="@+id/sta_textView"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moves"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp"
+                android:background="@color/l_gray">
+
+                <include
+                    layout="@layout/label_view_layout"
+                    android:id="@+id/move1_type_textView"
+                    android:text="type"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/move1_name_textView"
+                    android:text="name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Effective"
+                    android:textColor="@color/green"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/move1_weakness_ll"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="2dp"
+                android:padding="6dp"
+                android:background="@color/l_gray">
+
+                <include
+                    layout="@layout/label_view_layout"
+                    android:id="@+id/move2_type_textView"
+                    android:textColor="@color/white"
+                    android:text="type"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/move2_name_textView"
+                    android:text="name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Effective"
+                    android:textColor="@color/green"
+                    android:textSize="12sp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/move2_weakness_ll"
+                    android:orientation="horizontal">
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
