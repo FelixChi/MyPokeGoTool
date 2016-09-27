@@ -1,7 +1,10 @@
 # MyPokeGoTool
 My Poke Go Tool
 currecntly is a prototype, only Google login
+show your pokemon info
 
+## Libary
+[PokeGoAPI](https://github.com/Grover-c13/PokeGOAPI-Java)
 
 ### License
 
